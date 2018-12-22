@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'metroregular';
+    src: url('font/metro-webfont.woff2') format('woff2'),
+         url('font/metro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    padding: 10px 30px;
+    background-color : black;
+    color : white;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-family: 'metroregular';
+    font-size : 3em;
+    color: #f9fcd6;
+}
+#info p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+button.refresh {
+    font-size : 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div#info {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #f9fcd6;
+    margin-right: 30px;
+    border-radius : 5px;
+}
+
+div#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
